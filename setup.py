@@ -76,6 +76,7 @@ setup(
     author_email="tuxtimo@gmail.com",
     url="https://github.com/timofurrer/observable",
     packages=find_packages(),
+    package_data=dict(observable=['py.typed']),
     install_requires=required,
     license="MIT",
     classifiers=(
