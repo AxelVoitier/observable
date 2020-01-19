@@ -93,4 +93,5 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ),
     cmdclass={"upload": UploadCommand},
+    zip_safe=False,  # Because mypy cannot analyse a zip
 )
